@@ -58,50 +58,46 @@ export const clientReviews = [
 
 export const myProjects = [
   {
-    title: 'Podcastr - AI Podcast Platform',
-    desc: 'Podcastr is a revolutionary Software-as-a-Service platform that transforms the way podcasts are created. With advanced AI-powered features like text-to-multiple-voices functionality, it allows creators to generate diverse voiceovers from a single text input.',
-    subdesc:
-      'Built as a unique Software-as-a-Service app with Next.js 14, Tailwind CSS, TypeScript, Framer Motion and Convex, Podcastr is designed for optimal performance and scalability.',
-    href: 'https://www.youtube.com/watch?v=zfAb95tJvZQ',
-    texture: '/textures/project/project1.mp4',
-    logo: '/assets/project-logo1.png',
+    title: 'ChurnSight - Customer Churn Prediction Model',
+  desc: 'ChurnSight is a machine learning solution designed to proactively identify customers at risk of churn. By analyzing behavioral and transactional patterns, it helps businesses retain high-value clients before they leave.',
+  subdesc:
+    'Built using Python, Pandas, NumPy, and Scikit-learn, the model leverages Logistic Regression and Random Forest algorithms for churn classification, achieving over 85% prediction accuracy. Visualized insights are delivered through Matplotlib and Seaborn for actionable interpretation.',
+    href: 'https://github.com/akshara01/Customer-Churn-Prediction-using-Machine-Learning/tree/main',
+    texture: '/textures/project/Churn.mp4',
+    logo: '/assets/churn.png',
     logoStyle: {
-      backgroundColor: '#2A1816',
-      border: '0.2px solid #36201D',
-      boxShadow: '0px 0px 60px 0px #AA3C304D',
+      backgroundColor: 'transparent',
+      border: 'none',
+      boxShadow: 'none',
     },
     spotlight: '/assets/spotlight1.png',
     tags: [
       {
         id: 1,
-        name: 'React.js',
-        path: '/assets/react.svg',
+        name: 'Python',
+        path: '/assets/Python.svg',
       },
       {
         id: 2,
-        name: 'TailwindCSS',
-        path: 'assets/tailwindcss.png',
+        name: 'Numpy',
+        path: 'assets/logo.svg',
       },
       {
         id: 3,
-        name: 'TypeScript',
-        path: '/assets/typescript.png',
+        name: 'Pandas',
+        path: '/assets/pandas_white.svg',
       },
-      {
-        id: 4,
-        name: 'Framer Motion',
-        path: '/assets/framer.png',
-      },
+      
     ],
   },
   {
-    title: 'LiveDoc - Real-Time Google Docs Clone',
-    desc: 'LiveDoc is a powerful collaborative app that elevates the capabilities of real-time document editing. As an enhanced version of Google Docs, It supports millions of collaborators simultaneously, ensuring that every change is captured instantly and accurately.',
+    title: 'Netflix Insights - Interactive Content Analytics',
+    desc: 'Netflix Insights is a dynamic Tableau dashboard offering deep exploration of global movie and TV show trends. Users can interactively filter and analyze content by genre, rating, country, release year, and more—turning raw data into actionable entertainment insights.',
     subdesc:
-      'With LiveDoc, users can experience the future of collaboration, where multiple contributors work together in real time without any lag, by using Next.js and Liveblocks newest features.',
-    href: 'https://www.youtube.com/watch?v=y5vE8y_f_OM',
-    texture: '/textures/project/project2.mp4',
-    logo: '/assets/project-logo2.png',
+    'Designed in Tableau with a dark theme and intuitive navigation, the dashboard includes multi-tab analytics across general trends, title-level details, and director-based performance. It visualizes data such as top genres, regional content distribution, and historical content growth, enhancing decision-making for content teams and analysts.',
+    href: 'https://public.tableau.com/app/profile/akshra.mehta/viz/NetflixMoviesTVShowsDashboard_17445891551010/NetflixGeneralAnalytics',
+    texture: '/textures/project/Netflix.mp4',
+    logo: '/assets/netflix.png',
     logoStyle: {
       backgroundColor: '#13202F',
       border: '0.2px solid #17293E',
@@ -111,33 +107,29 @@ export const myProjects = [
     tags: [
       {
         id: 1,
-        name: 'React.js',
-        path: '/assets/react.svg',
+        name: 'Yableau',
+        path: '/assets/Tableau-Symbol.png',
       },
       {
         id: 2,
-        name: 'TailwindCSS',
-        path: 'assets/tailwindcss.png',
+        name: 'Excel',
+        path: 'assets/excel.png',
       },
       {
         id: 3,
-        name: 'TypeScript',
-        path: '/assets/typescript.png',
+        name: 'Kaggle',
+        path: '/assets/kaggle.svg',
       },
-      {
-        id: 4,
-        name: 'Framer Motion',
-        path: '/assets/framer.png',
-      },
+      
     ],
   },
   {
-    title: 'CarePulse - Health Management System',
-    desc: 'An innovative healthcare platform designed to streamline essential medical processes. It simplifies patient registration, appointment scheduling, and medical record management, providing a seamless experience for both healthcare providers and patients.',
-    subdesc:
-      'With a focus on efficiency, CarePulse integrantes complex forms and SMS notifications, by using Next.js, Appwrite, Twillio and Sentry that enhance operational workflows.',
-    href: 'https://www.youtube.com/watch?v=lEflo_sc82g',
-    texture: '/textures/project/project3.mp4',
+    title: 'BreachTrack - US Data Breach Analytics (2009–2021)',
+  desc: 'BreachTrack is a Python-powered analytical solution that explores data breach incidents across the United States over a 12-year span. It uncovers trends across sectors, breach types, and states to support cyber risk assessment and strategic response planning.',
+  subdesc:
+    'Developed using Python, Pandas, Matplotlib, and Seaborn, the project visualizes patterns in data exposure frequency, industry vulnerability, and breach severity. It enables stakeholders to better understand long-term security trends and emerging risk areas through clear, interpretable insights.',
+    href: 'https://github.com/akshara01/US-DATA-BREACHES-DATA-ANALYSIS-2009-21/tree/main',
+    texture: '/textures/project/Databreach.mp4',
     logo: '/assets/project-logo3.png',
     logoStyle: {
       backgroundColor: '#60f5a1',
@@ -150,71 +142,68 @@ export const myProjects = [
     tags: [
       {
         id: 1,
-        name: 'React.js',
-        path: '/assets/react.svg',
+        name: 'Python',
+        path: '/assets/Python.svg',
       },
       {
         id: 2,
-        name: 'TailwindCSS',
-        path: 'assets/tailwindcss.png',
+        name: 'Numpy',
+        path: 'assets/logo.svg',
       },
       {
         id: 3,
-        name: 'TypeScript',
-        path: '/assets/typescript.png',
+        name: 'Pandas',
+        path: '/assets/pandas_white.svg',
+        
       },
       {
         id: 4,
-        name: 'Framer Motion',
-        path: '/assets/framer.png',
+        name: 'Kaggle',
+        path: '/assets/kaggle.svg',
       },
     ],
   },
   {
-    title: 'Horizon - Online Banking Platform',
-    desc: 'Horizon is a comprehensive online banking platform that offers users a centralized finance management dashboard. It allows users to connect multiple bank accounts, monitor real-time transactions, and seamlessly transfer money to other users.',
-    subdesc:
-      'Built with Next.js 14 Appwrite, Dwolla and Plaid, Horizon ensures a smooth and secure banking experience, tailored to meet the needs of modern consumers.',
-    href: 'https://www.youtube.com/watch?v=PuOVqP_cjkE',
-    texture: '/textures/project/project4.mp4',
-    logo: '/assets/project-logo4.png',
+    title: 'CCNA-On-Fingertips – Interactive Learning Tool',
+  desc: 'CCNA-On-Fingertips is a lightweight, interactive HTML resource designed to simplify the core concepts of networking. It presents CCNA fundamentals through intuitive visuals, structured content, and clickable modules for self-paced learning.',
+  subdesc:
+    'Built using HTML, CSS, and JavaScript, the platform focuses on responsive design and clarity. Topics like IP addressing, subnetting, routing protocols, and OSI layers are made easy through visual aids and digestible content—ideal for beginners or revision before certification.',
+    href: 'https://github.com/akshara01/CCNA-On-FingerTips',
+    texture: '/textures/project/CCNA.mp4',
+    logo: '/assets/ccna.png',
     logoStyle: {
-      backgroundColor: '#0E1F38',
-      border: '0.2px solid #0E2D58',
-      boxShadow: '0px 0px 60px 0px #2F67B64D',
+      backgroundColor: 'transparent',
+      border: 'none',
+      boxShadow: 'none',
     },
     spotlight: '/assets/spotlight4.png',
     tags: [
       {
         id: 1,
-        name: 'React.js',
-        path: '/assets/react.svg',
+        name: 'HTML',
+        path: '/assets/html.png',
       },
       {
         id: 2,
-        name: 'TailwindCSS',
-        path: 'assets/tailwindcss.png',
+        name: 'CSS',
+        path: 'assets/css.png',
       },
       {
         id: 3,
-        name: 'TypeScript',
-        path: '/assets/typescript.png',
+        name: 'JavaScript',
+        path: '/assets/JavaScript.png',
       },
-      {
-        id: 4,
-        name: 'Framer Motion',
-        path: '/assets/framer.png',
-      },
+      
     ],
   },
   {
-    title: 'Imaginify - AI Photo Manipulation App',
-    desc: 'Imaginify is a groundbreaking Software-as-a-Service application that empowers users to create stunning photo manipulations using AI technology. With features like AI-driven image editing, a payments system, and a credits-based model.',
-    subdesc:
-      'Built with Next.js 14, Cloudinary AI, Clerk, and Stripe, Imaginify combines cutting-edge technology with a user-centric approach. It can be turned into a side income or even a full-fledged business.',
-    href: 'https://www.youtube.com/watch?v=Ahwoks_dawU',
-    texture: '/textures/project/project5.mp4',
-    logo: '/assets/project-logo5.png',
+   title: 'MediTrack - Hospital Management System',
+  desc: 'MediTrack is a desktop-based hospital management system that streamlines patient records, appointments, doctor scheduling, and billing operations. Built using Python’s Tkinter for the GUI and MySQL for database integration, it supports seamless data entry and retrieval for clinical workflows.',
+  subdesc:
+    'The system features modules for patient registration, doctor management, prescription tracking, and invoice generation. It emphasizes usability and relational database design, ensuring real-time access to critical medical information while maintaining data integrity across departments.',
+    href: 'https://github.com/akshara01/HOSPITAL-MANAGEMENT-SYSTEM-USING-MYSQL-AND-TKINTER',
+    texture: '/textures/project/hospital.mp4',
+    logo: '/assets/project-logo2.png',
     logoStyle: {
       backgroundColor: '#1C1A43',
       border: '0.2px solid #252262',
@@ -224,24 +213,15 @@ export const myProjects = [
     tags: [
       {
         id: 1,
-        name: 'React.js',
-        path: '/assets/react.svg',
+        name: 'Python',
+        path: '/assets/Python.svg',
       },
       {
         id: 2,
-        name: 'TailwindCSS',
-        path: 'assets/tailwindcss.png',
+        name: 'SQL',
+        path: 'assets/sql.png',
       },
-      {
-        id: 3,
-        name: 'TypeScript',
-        path: '/assets/typescript.png',
-      },
-      {
-        id: 4,
-        name: 'Framer Motion',
-        path: '/assets/framer.png',
-      },
+      
     ],
   },
 ];
@@ -260,29 +240,29 @@ export const calculateSizes = (isSmall, isMobile, isTablet) => {
 export const workExperiences = [
   {
     id: 1,
-    name: 'Framer',
-    pos: 'Lead Web Developer',
-    duration: '2022 - Present',
-    title: "Framer serves as my go-to tool for creating interactive prototypes. I use it to bring designs to  life, allowing stakeholders to experience the user flow and interactions before development.",
-    icon: '/assets/framer.svg',
+    name: 'EY',
+    pos: 'Senior Analyst',
+    duration: 'July 2023 - July 2024',
+    title: "EY was where I honed my skills in data analysis and compliance. I streamlined reporting, resolved software audit issues, and delivered insights that supported informed decisions across global client teams.",
+    icon: '/assets/EY.png',
     animation: 'victory',
   },
   {
     id: 2,
-    name: 'Figma',
-    pos: 'Web Developer',
-    duration: '2020 - 2022',
-    title: "Figma is my collaborative design platform of choice. I utilize it to work seamlessly with team members and clients, facilitating real-time feedback and design iterations. Its cloud-based.",
-    icon: '/assets/figma.svg',
+    name: 'Skynet Secure Solutions',
+    pos: 'Data Analyst Intern',
+    duration: 'January 2022 - March 2022',
+    title: "Skynet Secure Solutions gave me hands-on exposure to cybersecurity audits. I analyzed security data, built dashboards, and uncovered system vulnerabilities—helping clients respond faster and reduce risks across multiple engagements.",
+    icon: '/assets/skynet.png',
     animation: 'clapping',
   },
   {
     id: 3,
-    name: 'Notion',
-    pos: 'Junior Web Developer',
-    duration: '2019 - 2020',
-    title: "Notion helps me keep my projects organized. I use it for project management, task tracking, and as a central hub for documentation, ensuring that everything from design notes to.",
-    icon: '/assets/notion.svg',
+    name: 'Nurturing Lives NGO',
+    pos: 'Volunteer Head',
+    duration: 'July 2020 - July 2022',
+    title: "At Nurturing Lives, I led national campaigns, taught underprivileged children, and managed volunteer recruitment—creating social impact through education, donation drives, and community outreach that empowered over 500 beneficiaries across India.",
+    icon: '/assets/nl.png',
     animation: 'salute',
   },
 ];

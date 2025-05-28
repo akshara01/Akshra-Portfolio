@@ -6,6 +6,10 @@ import Developer from '../components/Developer.jsx';
 import CanvasLoader from '../components/Loading.jsx';
 import { workExperiences } from '../constants/index.js';
 
+import Developer1 from '../components/Developer1.jsx';
+
+import Button from '../components/Button.jsx';
+
 const WorkExperience = () => {
   const [animationName, setAnimationName] = useState('idle');
 
@@ -13,7 +17,7 @@ const WorkExperience = () => {
     <section className="c-space my-20" id="work">
       <div className="w-full text-white-600">
         <p className="head-text">My Work Experience</p>
-
+        
         <div className="work-container">
           <div className="work-canvas">
             <Canvas>
@@ -23,9 +27,10 @@ const WorkExperience = () => {
               <OrbitControls enableZoom={false} maxPolarAngle={Math.PI / 2} />
 
               <Suspense fallback={<CanvasLoader />}>
-                <Developer position-y={-3} scale={3} animationName={animationName} />
+                <Developer1 position-y={-3} scale={3} animationName={animationName}/>
               </Suspense>
             </Canvas>
+            
           </div>
 
           <div className="work-content">
@@ -54,10 +59,16 @@ const WorkExperience = () => {
                   </div>
                 </div>
               ))}
+              <a href="https://drive.google.com/file/d/1Hi4iYZXUgVd6sxhU6BOu2WBVVPd-hxot/view?usp=drive_link" target="_blank" rel="noopener noreferrer" className="w-full block mt-10">
+                  <Button name="View My Resume" isBeam containerClass="w-full" />
+              </a>
             </div>
+            
           </div>
         </div>
       </div>
+            
+      
     </section>
   );
 };

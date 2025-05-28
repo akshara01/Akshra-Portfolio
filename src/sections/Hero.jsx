@@ -11,8 +11,11 @@ import Button from '../components/Button.jsx';
 import Target from '../components/Target.jsx';
 import CanvasLoader from '../components/Loading.jsx';
 import HeroCamera from '../components/HeroCamera.jsx';
+import Python from '../components/Python.jsx';
 import { calculateSizes } from '../constants/index.js';
 import { HackerRoom } from '../components/HackerRoom.jsx';
+
+import { Typewriter } from 'react-simple-typewriter';
 
 const Hero = () => {
   // Use media queries to determine screen size
@@ -25,10 +28,25 @@ const Hero = () => {
   return (
     <section className="min-h-screen w-full flex flex-col relative" id="home">
       <div className="w-full mx-auto flex flex-col sm:mt-36 mt-20 c-space gap-3">
-        <p className="sm:text-3xl text-xl font-medium text-white text-center font-generalsans">
-          Hi, I am Adrian <span className="waving-hand">👋</span>
+        <p className="sm:text-5xl text-4xl font-semibold text-white text-center font-generalsans">
+          Hi, I am Akshra Mehta <span className="waving-hand">👋</span>
         </p>
-        <p className="hero_tag text-gray_gradient">Building Products & Brands</p>
+        <p className="hero_tag text-purple-600 text-center font-generalsans">
+   <Typewriter
+    words={[
+      'Student @UF',
+      'Data Analyst & Data Engineer',
+      'Business Analyst',
+      'Product Manager'
+    ]}
+    loop={0} // Use `Infinity` if you want it to keep looping
+    cursor
+    cursorStyle="|"
+    typeSpeed={50}
+    deleteSpeed={40}
+    delaySpeed={2000}
+  />
+</p>
       </div>
 
       <div className="w-full h-full absolute inset-0">
@@ -47,6 +65,7 @@ const Hero = () => {
               <ReactLogo position={sizes.reactLogoPosition} />
               <Rings position={sizes.ringPosition} />
               <Cube position={sizes.cubePosition} />
+              
             </group>
 
             <ambientLight intensity={1} />

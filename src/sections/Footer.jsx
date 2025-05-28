@@ -8,18 +8,35 @@ const Footer = () => {
       </div>
 
       <div className="flex gap-3">
-        <div className="social-icon">
-          <img src="/assets/github.svg" alt="github" className="w-1/2 h-1/2" />
-        </div>
-        <div className="social-icon">
-          <img src="/assets/twitter.svg" alt="twitter" className="w-1/2 h-1/2" />
-        </div>
-        <div className="social-icon">
-          <img src="/assets/instagram.svg" alt="instagram" className="w-1/2 h-1/2" />
-        </div>
-      </div>
+  <a
+    href="https://github.com/akshara01"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="social-icon"
+  >
+    <img src="/assets/github.svg" alt="github" className="w-1/2 h-1/2" />
+  </a>
 
-      <p className="text-white-500">© 2024 Adrian Hajdin. All rights reserved.</p>
+  <a
+    href="https://www.linkedin.com/in/akshra-mehta-b759271b2/"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="social-icon"
+  >
+    <img src="/assets/linkedin.png" alt="twitter" className="w-1/2 h-1/2" />
+  </a>
+
+  <a
+    href="https://www.instagram.com/_akshramehta_/"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="social-icon"
+  >
+    <img src="/assets/instagram.svg" alt="instagram" className="w-1/2 h-1/2" />
+  </a>
+</div>
+
+      <p className="text-white-500">© 2025 Akshra Mehta. All rights reserved.</p>
     </footer>
   );
 };
