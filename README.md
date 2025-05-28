@@ -1,4 +1,4 @@
-# 🌐 Akshra Portfolio
+# 🌐 Akshra Mehta Portfolio
 
 Welcome to my personal interactive 3D developer portfolio website — built with **Three.js**, **React**, and modern web technologies. This project showcases my skills, projects, and personality in an engaging and creative format.
 
