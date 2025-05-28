@@ -5,7 +5,7 @@ Welcome to my personal interactive 3D developer portfolio website — built with
 
 
 ## 🖼️ Preview
-
+![Preview](public/assets/preview.gif)
 
 
 
